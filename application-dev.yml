@@ -1,7 +1,7 @@
 spring:
   cloud:
     consul:
-      host: 127.0.0.1
+      host: 172.31.26.137
       port: 8500
       discovery:
         prefer-ip-address: true
