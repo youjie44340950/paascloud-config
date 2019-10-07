@@ -6,10 +6,10 @@ spring:
           github:
             client-id: bfe8662580f52bfcbe6d
             client-secret: 1cce0033fadf002fa242a718d26012f03554b4fc
-#  redis:
-#    host: 172.31.26.137
-#    port: 6379
-#    password: 123
+  redis:
+    host: 172.31.26.137
+    port: 6379
+    password: 123
 
   cloud:
     gateway:
