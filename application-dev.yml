@@ -9,6 +9,7 @@ spring:
         instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}
         healthCheckInterval: 15s
         health-check-timeout: 100s
+        ip-address: ${spring.cloud.client.ip-address}
 feign:
   hystrix:
     enabled: true
