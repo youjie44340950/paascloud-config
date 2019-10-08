@@ -3,7 +3,7 @@ spring:
     url: jdbc:mysql://rm-m5eg6e7vjl9v152i26o.mysql.rds.aliyuncs.com:3306/paascloud_pmc?serverTimezone=UTC
     username: root
     password: Ssylqwj!
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml
