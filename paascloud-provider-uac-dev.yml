@@ -11,7 +11,7 @@ mybatis-plus:
 xxl:
   job:
     admin:
-      addresses: http://127.0.0.1:8080/xxl-job-admin
+      addresses: http://172.31.26.137:9999/xxl-job-admin
     ### xxl-job executor address
     executor:
       appname: ${spring.application.name}
